@@ -12,11 +12,11 @@ spring:
         - id: onboard
           uri: lb://onboard-service
           predicates:
-            - Path=/api/v1/onboard/**
+          - Path=/api/v1/onboard/**
         - id: follow
           uri: lb://follow-service
           predicates:
-            - Path=/api/v1/follow/**
+          - Path=/api/v1/follow/**
 
     loadbalancer:
       ribbon:
