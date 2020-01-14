@@ -9,14 +9,14 @@ spring:
           enabled: true
           lower-case-service-id: true
       routes:
-        - id: onboard
-          uri: lb://onboard-service
-          predicates:
-          - Path=/api/v1/onboard/**
-        - id: follow
-          uri: lb://follow-service
-          predicates:
-          - Path=/api/v1/follow/**
+      - id: onboard
+        uri: lb://onboard-service
+        predicates:
+        - Path=/api/v1/onboard/**
+      - id: follow
+        uri: lb://follow-service
+        predicates:
+        - Path=/api/v1/follow/**
 
     loadbalancer:
       ribbon:
