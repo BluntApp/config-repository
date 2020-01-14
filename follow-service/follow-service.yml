@@ -27,6 +27,7 @@ spring:
         instance:
           health-url: http://host.docker.internal:9002/actuator/health
           management-url: http://host.docker.internal:9002/actuator
+          service-url: http://host.docker.internal:9002
 management:
   endpoints:
     web:
