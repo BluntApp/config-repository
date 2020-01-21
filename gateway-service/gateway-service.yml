@@ -17,6 +17,10 @@ spring:
         uri: lb://follow-service
         predicates:
         - Path=/api/v1/follow/**
+      - id: sms
+        uri: lb://sms-service
+        predicates:
+        - Path=/api/v1/sms/**
 
     loadbalancer:
       ribbon:
