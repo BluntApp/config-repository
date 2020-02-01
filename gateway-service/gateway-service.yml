@@ -21,7 +21,9 @@ spring:
         uri: lb://sms-service
         predicates:
         - Path=/api/v1/sms/**
-
+      httpclient:
+        response-timeout: 30000
+        connect-timeout: 30000
     loadbalancer:
       ribbon:
         enabled: false
