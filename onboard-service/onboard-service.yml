@@ -39,11 +39,9 @@ feign:
     connection-timeout: 50000
 
 ribbon:
-  read-timeout: 20000
-  connect-timeout: 20000
+  read-timeout: 1000
+  connect-timeout: 1000
   connection-timeout: 20000
-  ReadTimeout: 1000
-  ConnectTimeout: 1000
 
 logging:
   file:
