@@ -38,6 +38,9 @@ feign:
   httpclient:
     connection-timeout: 50000
 
+ribbon:
+  connection-timeout: 20000
+
 logging:
   file:
     path: C:/Users/kpaulpa/Documents/workArea/TechnicalWork/logs/blunt-onboard-service
