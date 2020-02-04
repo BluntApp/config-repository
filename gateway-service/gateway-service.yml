@@ -21,6 +21,10 @@ spring:
         uri: lb://sms-service
         predicates:
         - Path=/api/v1/sms/**
+      - id: publish
+        uri: lb://publish-service
+        predicates:
+        - Path=/api/v1/publish/**
       httpclient:
         response-timeout: 30000
         connect-timeout: 30000
