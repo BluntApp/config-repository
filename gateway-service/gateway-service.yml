@@ -26,8 +26,8 @@ spring:
         predicates:
         - Path=/api/v1/publish/**
       httpclient:
-        response-timeout: 30000
-        connect-timeout: 30000
+        response-timeout: 100000
+        connect-timeout: 300000
     loadbalancer:
       ribbon:
         enabled: false
