@@ -36,12 +36,12 @@ management:
 
 feign:
   httpclient:
-    connection-timeout: 500000
-    read-timeout: 500000
+    connection-timeout: 33000
+    read-timeout: 33000
 
 ribbon:
-  connection-timeout: 200000
-  read-timeout: 200000
+  connection-timeout: 33000
+  read-timeout: 33000
 
 logging:
   file:
