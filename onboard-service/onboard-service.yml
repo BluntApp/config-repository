@@ -37,7 +37,7 @@ management:
 feign:
   client:
     config:
-      default:
+      follow-service:
         connectTimeout: 1000
         readTimeout: 1000
 
