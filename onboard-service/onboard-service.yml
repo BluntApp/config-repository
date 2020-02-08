@@ -38,8 +38,8 @@ feign:
   client:
     config:
       follow-service:
-        connectTimeout: 1000
-        readTimeout: 1000
+        connectTimeout: 15000
+        readTimeout: 15000
 
 
 logging:
