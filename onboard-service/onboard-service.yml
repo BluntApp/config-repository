@@ -40,7 +40,9 @@ feign:
       follow-service:
         connectTimeout: 15000
         readTimeout: 15000
-
+      sms-service:
+        connectTimeout: 15000
+        readTimeout: 15000
 
 logging:
   file:
