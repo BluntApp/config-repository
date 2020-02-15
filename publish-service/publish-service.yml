@@ -13,7 +13,7 @@ spring:
       probability: 1.0
   zipkin:
     kafka:
-      topic: publish-follow
+      topic: blunt-publish
     sender:
       type: kafka
   data:
