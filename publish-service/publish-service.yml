@@ -25,9 +25,9 @@ spring:
         # url: http://${HOST_IP}:9000
         url: http://host.docker.internal:9000
         instance:
-          health-url: http://host.docker.internal:9002/actuator/health
-          management-url: http://host.docker.internal:9002/actuator
-          service-url: http://host.docker.internal:9002
+          health-url: http://host.docker.internal:9004/actuator/health
+          management-url: http://host.docker.internal:9004/actuator
+          service-url: http://host.docker.internal:9004
 management:
   endpoints:
     web:
