@@ -37,3 +37,10 @@ management:
 logging:
   file:
     path: C:/Users/kpaulpa/Documents/workArea/TechnicalWork/logs/blunt-publish-service
+
+feign:
+  client:
+    config:
+      onboard-service:
+        connectTimeout: 1000
+        readTimeout: 1000
