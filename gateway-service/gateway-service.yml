@@ -25,6 +25,14 @@ spring:
         uri: lb://publish-service
         predicates:
         - Path=/api/v1/publish/**
+      - id: email
+        uri: lb://email-service
+        predicates:
+        - Path=/api/v1/email/**
+      - id: metrics
+        uri: lb://metrics-service
+        predicates:
+        - Path=/api/v1/metrics/**
       httpclient:
         response-timeout: 37000
         connect-timeout: 37000
