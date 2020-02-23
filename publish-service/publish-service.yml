@@ -42,5 +42,5 @@ feign:
   client:
     config:
       onboard-service:
-        connectTimeout: 1000
-        readTimeout: 1000
+        connectTimeout: 10000
+        readTimeout: 10000
