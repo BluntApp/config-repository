@@ -1,7 +1,18 @@
 server:
   port: 9005
-
 spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: bluntapp22@gmail.com
+    password: Blunt@123
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
   kafka:
     #bootstrap-servers: http://${HOST_IP}:9092
     bootstrap-servers: http://host.docker.internal:9092
