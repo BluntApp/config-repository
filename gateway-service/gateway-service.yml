@@ -33,6 +33,10 @@ spring:
         uri: lb://metrics-service
         predicates:
         - Path=/api/v1/metrics/**
+      - id: comments
+        uri: lb://comments-service
+        predicates:
+        - Path=/api/v1/comments/**
       httpclient:
         response-timeout: 37000
         connect-timeout: 37000
