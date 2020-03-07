@@ -33,7 +33,18 @@ management:
     web:
       exposure:
         include: "*"
-
+feign:
+  client:
+    config:
+      onboard-service:
+        connectTimeout: 15000
+        readTimeout: 15000
+      publish-service:
+        connectTimeout: 15000
+        readTimeout: 15000
+      follow-service:
+        connectTimeout: 15000
+        readTimeout: 15000
 logging:
   file:
     path: C:/Users/kpaulpa/Documents/workArea/TechnicalWork/logs/blunt-comments-service
