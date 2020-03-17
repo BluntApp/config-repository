@@ -49,5 +49,5 @@ twilio:
 
 text-local:
   api-key: Vm73vOXE764-7F2LLNRknABp4oCLmiDB51EqUMgQNr
-  sender: TXTLCL
+  sender: TXTLCL-new
   url: https://api.textlocal.in/send

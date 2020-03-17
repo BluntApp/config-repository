@@ -1,0 +1,17 @@
+
+S
+#gateway-service/gateway-service.yml,5\3\530c8be4731e3614410d3987da37d1a564cf4127
+S
+#onboard-service/onboard-service.yml,5\d\5d0dbda004d2488aa6116dfc156c7f485c925e35
+Q
+!follow-service/follow-service.yml,9\0\90c1536681897fbc962142381a23193af8a4619b
+K
+sms-service/sms-service.yml,4\6\4607758f6c8d66f1ba11244b9e806a25fa524a6f
+S
+#publish-service/publish-service.yml,e\8\e8f47a311ffba8a49c8ead5d65470bf532491399
+O
+email-service/email-service.yml,9\7\97cefc988fb799e95a1aa4a404a712fcff33fb8b
+S
+#metrics-service/metrics-service.yml,4\6\46800fc51764e6659be56706617f134c2decd069
+U
+%comments-service/comments-service.yml,b\3\b3013bda296976ef8040a1ee2e0825a4c8dc9e63
