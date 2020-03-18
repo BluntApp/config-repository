@@ -15,3 +15,7 @@ S
 #metrics-service/metrics-service.yml,4\6\46800fc51764e6659be56706617f134c2decd069
 U
 %comments-service/comments-service.yml,b\3\b3013bda296976ef8040a1ee2e0825a4c8dc9e63
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+Y
+)customer-service/customer-service-dev.yml,c\4\c4a8648857cb3bc5ed883cb5ac50ce79e03dfd13
