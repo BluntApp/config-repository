@@ -19,6 +19,9 @@ spring:
   data:
     mongodb:
       uri: mongodb+srv://blunt:blunt@clusterblunt-ozeey.gcp.mongodb.net/publish?retryWrites=true&w=majority
+  servlet:
+    multipart:
+      max-file-size: 4MB
   boot:
     admin:
       client:

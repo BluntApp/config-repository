@@ -48,6 +48,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../blunt-ui/src/Component/Comments/commentsStyles.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../blunt-ui/src/Component/Dashboard/Dashboard.jsx">
           <value>
             <set />
@@ -224,6 +229,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../blunt-ui/src/Store/Reducer/index.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-ui/src/Store/Reducer/postReducer.js">
           <value>
             <set />
           </value>
@@ -639,6 +649,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../publish-service/src/main/java/com/blunt/publish/dto/PostMetricsDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../publish-service/src/main/java/com/blunt/publish/entity/Content.java">
           <value>
             <set />
           </value>
