@@ -18,6 +18,81 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../authorization-service/src/main/resources/application-test.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../authorization-service/src/main/resources/bootstrap.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../authorization-service/src/main/resources/logback-spring.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-revamp-ui/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-revamp-ui/src/components/Navbars/AdminNavbar.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-revamp-ui/src/components/Sidebar/Sidebar.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-revamp-ui/src/config/AxiosConfiguration.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-revamp-ui/src/index.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-revamp-ui/src/layouts/Admin.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-revamp-ui/src/layouts/Auth.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-revamp-ui/src/layouts/BluntLayout.jsx">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-revamp-ui/src/layouts/bluntLayoutStyles.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-revamp-ui/src/routes.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-revamp-ui/src/views/Pages/LoginPage.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-revamp-ui/src/views/Pages/SigninPage.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../blunt-ui/package.json">
           <value>
             <set />
@@ -359,6 +434,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../comments-service/src/main/resources/logback-spring.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/authorize-service/authorize-service.yml">
           <value>
             <set />
           </value>
