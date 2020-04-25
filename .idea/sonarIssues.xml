@@ -18,6 +18,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../authorization-service/src/main/java/com/blunt/authorization/AuthorizeServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../authorization-service/src/main/java/com/blunt/authorization/config/AuthorizeServiceConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../authorization-service/src/main/java/com/blunt/authorization/controller/AuthorizationController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../authorization-service/src/main/java/com/blunt/authorization/controller/AuthorizeController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../authorization-service/src/main/java/com/blunt/authorization/controller/PublishController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../authorization-service/src/main/resources/application-test.yml">
           <value>
             <set />

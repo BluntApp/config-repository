@@ -37,6 +37,10 @@ spring:
         uri: lb://comments-service
         predicates:
         - Path=/api/v1/comments/**
+      - id: authorize
+        uri: lb://authorize-service
+        predicates:
+        - Path=/api/v1/authorize/**
       httpclient:
         response-timeout: 37000
         connect-timeout: 37000
