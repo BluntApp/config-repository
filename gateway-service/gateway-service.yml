@@ -38,9 +38,9 @@ spring:
         predicates:
         - Path=/api/v1/comments/**
       - id: authorize
-        uri: lb://authorize-service
+        uri: lb://authentication-service
         predicates:
-        - Path=/api/v1/authorize/**
+        - Path=/api/v1/authenticate/**
       httpclient:
         response-timeout: 37000
         connect-timeout: 37000
