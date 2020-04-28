@@ -13,7 +13,7 @@ spring:
       probability: 1.0
   zipkin:
     kafka:
-      topic: blunt-authorize
+      topic: blunt-authenticate
     sender:
       type: kafka
 
@@ -34,7 +34,7 @@ management:
 
 logging:
   file:
-    path: C:/Users/kpaulpa/Documents/workArea/TechnicalWork/logs/blunt-authorize-service
+    path: C:/Users/kpaulpa/Documents/workArea/TechnicalWork/logs/blunt-authentication-service
 
 feign:
   client:
