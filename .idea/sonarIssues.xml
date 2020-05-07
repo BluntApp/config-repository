@@ -463,6 +463,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/authentication-service/authentication-service.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/authorize-service/authorize-service.yml">
           <value>
             <set />
@@ -559,6 +564,26 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../follow-service/src/main/resources/bootstrap.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/com/blunt/gateway/error/BluntException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/com/blunt/gateway/error/BluntExceptionHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/com/blunt/gateway/filter/AuthenticationFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/resources/application-loc.yml">
           <value>
             <set />
           </value>
@@ -674,6 +699,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../onboard-service/src/main/java/com/blunt/onboard/controller/OnboardController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../onboard-service/src/main/java/com/blunt/onboard/controller/OnboardSecuredController.java">
           <value>
             <set />
           </value>
