@@ -1,80 +1,80 @@
-#server:
-#  port: 8765
-#
-#spring:
-#  cloud:
-#    gateway:
-#      discovery:
-#        locator:
-#          enabled: true
-#          lower-case-service-id: true
-#      routes:
-#      - id: onboard
-#        uri: lb://onboard-service
-#        predicates:
-#        - Path=/api/v1/onboard/**
-#      - id: follow
-#        uri: lb://follow-service
-#        predicates:
-#        - Path=/api/v1/follow/**
-#      - id: sms
-#        uri: lb://sms-service
-#        predicates:
-#        - Path=/api/v1/sms/**
-#      - id: publish
-#        uri: lb://publish-service
-#        predicates:
-#        - Path=/api/v1/publish/**
-#      - id: email
-#        uri: lb://email-service
-#        predicates:
-#        - Path=/api/v1/email/**
-#      - id: metrics
-#        uri: lb://metrics-service
-#        predicates:
-#        - Path=/api/v1/metrics/**
-#      - id: comments
-#        uri: lb://comments-service
-#        predicates:
-#        - Path=/api/v1/comments/**
-#      - id: authorize
-#        uri: lb://authentication-service
-#        predicates:
-#        - Path=/api/v1/authenticate/**
-#      httpclient:
-#        response-timeout: 37000
-#        connect-timeout: 37000
-#    loadbalancer:
-#      ribbon:
-#        enabled: false
-#  kafka:
-#    #bootstrap-servers: http://${HOST_IP}:9092
-#    bootstrap-servers: http://host.docker.internal:9092
-#  sleuth:
-#    messaging:
-#      kafka:
-#        enabled: true
-#    sampler:
-#      probability: 1.0
-#  zipkin:
-#    kafka:
-#      topic: blunt-gateway
-#    sender:
-#      type: kafka
-#  boot:
-#    admin:
-#      client:
-#        # url: http://${HOST_IP}:9000
-#        url: http://host.docker.internal:9000
-#        instance:
-#          health-url: http://host.docker.internal:8765/actuator/health
-#          management-url: http://host.docker.internal:8765/actuator
-#management:
-#  endpoints:
-#    web:
-#      exposure:
-#        include: "*"
-#
-#logging:
-#  file:
-#    path: C:/Users/kpaulpa/Documents/workArea/TechnicalWork/logs/blunt-gateway-service
+server:
+  port: 8765
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+      - id: onboard
+        uri: lb://onboard-service
+        predicates:
+        - Path=/api/v1/onboard/**
+      - id: follow
+        uri: lb://follow-service
+        predicates:
+        - Path=/api/v1/follow/**
+      - id: sms
+        uri: lb://sms-service
+        predicates:
+        - Path=/api/v1/sms/**
+      - id: publish
+        uri: lb://publish-service
+        predicates:
+        - Path=/api/v1/publish/**
+      - id: email
+        uri: lb://email-service
+        predicates:
+        - Path=/api/v1/email/**
+      - id: metrics
+        uri: lb://metrics-service
+        predicates:
+        - Path=/api/v1/metrics/**
+      - id: comments
+        uri: lb://comments-service
+        predicates:
+        - Path=/api/v1/comments/**
+      - id: authorize
+        uri: lb://authentication-service
+        predicates:
+        - Path=/api/v1/authenticate/**
+      httpclient:
+        response-timeout: 37000
+        connect-timeout: 37000
+    loadbalancer:
+      ribbon:
+        enabled: false
+  kafka:
+    #bootstrap-servers: http://${HOST_IP}:9092
+    bootstrap-servers: http://host.docker.internal:9092
+  sleuth:
+    messaging:
+      kafka:
+        enabled: true
+    sampler:
+      probability: 1.0
+  zipkin:
+    kafka:
+      topic: blunt-gateway
+    sender:
+      type: kafka
+  boot:
+    admin:
+      client:
+        # url: http://${HOST_IP}:9000
+        url: http://host.docker.internal:9000
+        instance:
+          health-url: http://host.docker.internal:8765/actuator/health
+          management-url: http://host.docker.internal:8765/actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+logging:
+  file:
+    path: C:/Users/kpaulpa/Documents/workArea/TechnicalWork/logs/blunt-gateway-service

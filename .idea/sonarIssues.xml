@@ -18,6 +18,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../authentication-service/src/main/java/com/blunt/authentication/controller/AuthenticationController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../authentication-service/src/main/java/com/blunt/authentication/service/AuthenticationService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../authorization-service/src/main/java/com/blunt/authorization/AuthorizeServiceApplication.java">
           <value>
             <set />
@@ -143,7 +153,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../blunt-ui/src/Component/AuthValidator/AuthValidator.jsx">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-ui/src/Component/AuthValidator/authValidatorStyles.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../blunt-ui/src/Component/Comments/Comments.jsx">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-ui/src/Component/Comments/RespondRevealRequestDialog.jsx">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-ui/src/Component/Comments/RevealRequestDialog.jsx">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-ui/src/Component/Comments/commentsMuiTheme.js">
           <value>
             <set />
           </value>
@@ -184,6 +219,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../blunt-ui/src/Component/Layout/BluntLayout.jsx">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-ui/src/Component/Layout/PrivateRoute.jsx">
           <value>
             <set />
           </value>
@@ -273,6 +313,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../blunt-ui/src/Component/SignUp/SignUp.jsx">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../blunt-ui/src/Component/SignUp/signUpMuiTheme.js">
           <value>
             <set />
@@ -303,7 +348,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../blunt-ui/src/Store/Action/menuBarActions.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-ui/src/Store/Action/postActions.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../blunt-ui/src/Store/Action/signInActions.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-ui/src/Store/Action/signOutActions.js">
           <value>
             <set />
           </value>
@@ -339,6 +399,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../blunt-ui/src/Store/Reducer/signInReducer.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../blunt-ui/src/Store/Reducer/spinnerReducer.js">
           <value>
             <set />
           </value>
@@ -379,6 +444,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../comments-service/src/main/java/com/blunt/comments/controller/CommentsController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../comments-service/src/main/java/com/blunt/comments/controller/CommentsSecuredController.java">
           <value>
             <set />
           </value>
@@ -434,6 +504,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../comments-service/src/main/java/com/blunt/comments/service/CommentsService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../comments-service/src/main/java/com/blunt/comments/type/Status.java">
           <value>
             <set />
           </value>
@@ -533,6 +608,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../follow-service/src/main/java/com/blunt/follow/controller/FollowSecuredController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../follow-service/src/main/java/com/blunt/follow/dto/FollowDto.java">
           <value>
             <set />
@@ -544,6 +624,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../follow-service/src/main/java/com/blunt/follow/entity/Follow.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../follow-service/src/main/java/com/blunt/follow/proxy/PublishServiceProxyClient.java">
           <value>
             <set />
           </value>
@@ -568,6 +653,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/com/blunt/gateway/GatewayServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/com/blunt/gateway/config/GatewayServiceConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/com/blunt/gateway/controller/GatewayServiceController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/com/blunt/gateway/error/BluntException.java">
           <value>
             <set />
@@ -583,12 +688,47 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/com/blunt/gateway/filter/ErrorFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/com/blunt/gateway/filter/PostFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/com/blunt/gateway/filter/PreFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/com/blunt/gateway/filter/SendErrorCustomFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/com/blunt/gateway/service/GatewayService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/java/com/blunt/gateway/util/BluntConstant.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../gateway-service/src/main/resources/application-loc.yml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../gateway-service/src/main/resources/application-test.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/resources/application-zuul.yml">
           <value>
             <set />
           </value>
@@ -619,6 +759,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../metrics-service/src/main/java/com/blunt/metrics/controller/MetricsContoller.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../metrics-service/src/main/java/com/blunt/metrics/controller/MetricsController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../metrics-service/src/main/java/com/blunt/metrics/controller/MetricsSecuredContoller.java">
           <value>
             <set />
           </value>
@@ -723,6 +873,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../onboard-service/src/main/java/com/blunt/onboard/error/BluntExceptionHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../onboard-service/src/main/java/com/blunt/onboard/proxy/EmailServiceProxyClient.java">
           <value>
             <set />
@@ -774,6 +929,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../publish-service/src/main/java/com/blunt/publish/controller/PublishController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../publish-service/src/main/java/com/blunt/publish/controller/PublishSecuredController.java">
           <value>
             <set />
           </value>
@@ -864,6 +1024,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../trimbleProject/tcx/master/tcx.ui/src/components/ResourceManger/Preview/Preview.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../trimbleProject/tcx/master/trimble.tcx.emailservice/src/main/java/com/trimble/tcx/controller/EmailController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../trimbleProject/tcx/master/trimble.tcx.emailservice/src/main/java/com/trimble/tcx/controller/advice/ValidationErrorResponse.java">
           <value>
             <set />
           </value>
