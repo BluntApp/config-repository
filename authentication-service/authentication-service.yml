@@ -51,13 +51,17 @@ management:
       exposure:
         include: "*"
 
-logging:
-  file:
-    path: C:/Users/kpaulpa/Documents/workArea/TechnicalWork/logs/blunt-authentication-service
-
 feign:
   client:
     config:
       onboard-service:
         connectTimeout: 10000
         readTimeout: 10000
+
+jwt:
+  secret:
+    bluntuservalidation
+
+logging:
+  file:
+    path: C:/Users/kpaulpa/Documents/workArea/TechnicalWork/logs/blunt-authentication-service
