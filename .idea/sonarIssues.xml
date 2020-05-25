@@ -453,6 +453,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../comments-service/src/main/java/com/blunt/comments/controller/WebSocketController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../comments-service/src/main/java/com/blunt/comments/dto/BluntDto.java">
           <value>
             <set />
@@ -504,6 +509,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../comments-service/src/main/java/com/blunt/comments/service/CommentsService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../comments-service/src/main/java/com/blunt/comments/service/KafkaConsumerService.java">
           <value>
             <set />
           </value>

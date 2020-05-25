@@ -3,8 +3,27 @@ server:
 
 spring:
   kafka:
-    #bootstrap-servers: http://${HOST_IP}:9092
-    bootstrap-servers: http://host.docker.internal:9092
+    properties:
+      security:
+        protocol: SASL_SSL
+      sasl:
+        mechanism: SCRAM-SHA-256
+        jaas:
+          config: org.apache.kafka.common.security.scram.ScramLoginModule required username="52753t8t" password="74rKya8PhAYtNPG-HXePy2QK2-UbuCUR";
+    bootstrap-servers: velomobile-01.srvs.cloudkafka.com:9094, velomobile-02.srvs.cloudkafka.com:9094, velomobile-03.srvs.cloudkafka.com:9094
+    consumer:
+      group-id: 52753t8t-follow-consumer
+      auto-offset-reset: latest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring:
+          json:
+            trusted:
+              packages: com.blunt.follow.dto
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
   sleuth:
     messaging:
       kafka:
@@ -13,7 +32,7 @@ spring:
       probability: 1.0
   zipkin:
     kafka:
-      topic: blunt-follow
+      topic: 52753t8t-zipkin-blunt-follow
     sender:
       type: kafka
   data:
