@@ -89,3 +89,4 @@ management:
 logging:
   file:
     path: C:/Users/kpaulpa/Documents/workArea/TechnicalWork/logs/blunt-gateway-service
+
