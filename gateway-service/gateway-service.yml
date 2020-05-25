@@ -1,52 +1,43 @@
 server:
   port: 8765
 
+zuul:
+  routes:
+    onboard-service:
+      path: /api/v1/onboard/**
+      stripPrefix: false
+    follow-service:
+      path: /api/v1/follow/**
+      stripPrefix: false
+    sms-service:
+      path: /api/v1/sms/**
+      stripPrefix: false
+    publish-service:
+      path: /api/v1/publish/**
+      stripPrefix: false
+    email-service:
+      path: /api/v1/email/**
+      stripPrefix: false
+    metrics-service:
+      path: /api/v1/metrics/**
+      stripPrefix: false
+    comments-service:
+      path: /api/v1/comments/**
+      stripPrefix: false
+    authentication-service:
+      path: /api/v1/authenticate/**
+      stripPrefix: false
+  host:
+    connect-timeout-millis: 37000
+    socket-timeout-millis: 37000
+
+ribbon:
+  ReadTimeout: 37000
+  SocketTimeout: 37000
+  ConnectTimeout: 37000
+
+
 spring:
-  cloud:
-    gateway:
-      discovery:
-        locator:
-          enabled: true
-          lower-case-service-id: true
-      routes:
-      - id: onboard
-        uri: lb://onboard-service
-        predicates:
-        - Path=/api/v1/onboard/**
-      - id: follow
-        uri: lb://follow-service
-        predicates:
-        - Path=/api/v1/follow/**
-      - id: sms
-        uri: lb://sms-service
-        predicates:
-        - Path=/api/v1/sms/**
-      - id: publish
-        uri: lb://publish-service
-        predicates:
-        - Path=/api/v1/publish/**
-      - id: email
-        uri: lb://email-service
-        predicates:
-        - Path=/api/v1/email/**
-      - id: metrics
-        uri: lb://metrics-service
-        predicates:
-        - Path=/api/v1/metrics/**
-      - id: comments
-        uri: lb://comments-service
-        predicates:
-        - Path=/api/v1/comments/**
-      - id: authorize
-        uri: lb://authentication-service
-        predicates:
-        - Path=/api/v1/authenticate/**
-      httpclient:
-        response-timeout: 37000
-        connect-timeout: 37000
-    loadbalancer:
-      ribbon:
-        enabled: false
   kafka:
     properties:
       security:
@@ -88,6 +79,7 @@ spring:
         instance:
           health-url: http://host.docker.internal:8765/actuator/health
           management-url: http://host.docker.internal:8765/actuator
+          service-url: http://host.docker.internal:9006
 management:
   endpoints:
     web:
