@@ -34,7 +34,7 @@ spring:
     kafka:
       topic: lrodt96d-zipkin-blunt-metrics
     sender:
-      type: web
+      type: kafka
   data:
     mongodb:
       uri: mongodb+srv://blunt:blunt@clusterblunt-ozeey.gcp.mongodb.net/metrics?retryWrites=true&w=majority

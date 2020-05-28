@@ -34,7 +34,7 @@ spring:
     kafka:
       topic: 52753t8t-zipkin-blunt-authentication
     sender:
-      type: web
+      type: kafka
   boot:
     admin:
       client:
