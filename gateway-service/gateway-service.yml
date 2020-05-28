@@ -70,7 +70,7 @@ spring:
     kafka:
       topic: 52753t8t-zipkin-blunt-gateway
     sender:
-      type: kafka
+      type: web
   boot:
     admin:
       client:

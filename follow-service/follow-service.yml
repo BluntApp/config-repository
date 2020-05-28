@@ -34,7 +34,7 @@ spring:
     kafka:
       topic: 52753t8t-zipkin-blunt-follow
     sender:
-      type: kafka
+      type: web
   data:
     mongodb:
       uri: mongodb+srv://blunt:blunt@clusterblunt-ozeey.gcp.mongodb.net/follow?retryWrites=true&w=majority

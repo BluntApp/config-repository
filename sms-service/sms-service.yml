@@ -34,7 +34,7 @@ spring:
     kafka:
       topic: lrodt96d-zipkin-blunt-sms
     sender:
-      type: kafka
+      type: web
   data:
     mongodb:
       uri: mongodb+srv://blunt:blunt@clusterblunt-ozeey.gcp.mongodb.net/sms?retryWrites=true&w=majority
