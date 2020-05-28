@@ -18,12 +18,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../authentication-service/src/main/java/com/blunt/authentication/AuthenticationServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../authentication-service/src/main/java/com/blunt/authentication/controller/AuthenticationController.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../authentication-service/src/main/java/com/blunt/authentication/service/AuthenticationService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../authentication-service/src/main/java/com/blunt/authentication/util/BluntConstant.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../authentication-service/src/main/resources/application-local.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../authentication-service/src/main/resources/application.yml">
           <value>
             <set />
           </value>
@@ -743,6 +763,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../gateway-service/src/main/resources/bootstrap.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../metrics-service/Dockerfile">
           <value>
             <set />
@@ -994,6 +1019,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../publish-service/src/main/resources/logback-spring.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../registry-service/src/main/resources/application.yml">
           <value>
             <set />
           </value>
