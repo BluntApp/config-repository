@@ -9,10 +9,10 @@ spring:
       sasl:
         mechanism: SCRAM-SHA-256
         jaas:
-          config: org.apache.kafka.common.security.scram.ScramLoginModule required username="52753t8t" password="74rKya8PhAYtNPG-HXePy2QK2-UbuCUR";
-    bootstrap-servers: velomobile-01.srvs.cloudkafka.com:9094, velomobile-02.srvs.cloudkafka.com:9094, velomobile-03.srvs.cloudkafka.com:9094
+          config: org.apache.kafka.common.security.scram.ScramLoginModule required username="lksrnzii" password="FGAjF_ETUHIJE28DW9QW02Odh1tf_7Mk";
+    bootstrap-servers: moped-01.srvs.cloudkafka.com:9094,moped-02.srvs.cloudkafka.com:9094,moped-03.srvs.cloudkafka.com:9094
     consumer:
-      group-id: 52753t8t-comments-consumer
+      group-id: lksrnzii-comments-consumer
       auto-offset-reset: latest
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
@@ -32,7 +32,7 @@ spring:
       probability: 1.0
   zipkin:
     kafka:
-      topic: 52753t8t-zipkin-blunt-comments
+      topic: lksrnzii-zipkin-blunt-comments
     sender:
       type: kafka
   data:
